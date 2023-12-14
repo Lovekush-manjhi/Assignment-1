@@ -1,0 +1,128 @@
+@import url("https:// fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  --primary-color: #f92524;
+  --secondary-color: #faf9fe;
+  --text-dark: #0f172a;
+  --text-light: #64748b;
+  --white: #ffffff;
+  --max-width: 1000px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section_container{
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 2rem 1rem;
+  /*background-color: red;*/
+  /*border-radius: 5px;*/
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  margin-top: 50px;
+  border-left:1px solid lightgray;
+  border-right:1px solid lightgray;
+  border-top:1px solid lightgray;
+
+
+
+}
+.section_container2{
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 2rem 1rem;
+  /*background-color: red;*/
+  /*border-radius: 5px;*/
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-left:1px solid lightgray;
+  border-right:1px solid lightgray;
+  border-bottom:1px solid lightgray;
+}
+a {
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  /*background-color: red;*/
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.heading button{
+  width: 20%;
+  margin-top: 25px;
+  padding: 15px;
+  border-style: none;
+  background-color: #407EF7;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+
+}
+.nav_logo img{
+  height: 50px;
+}
+.heading p{
+  margin-top: 15px;
+  color:gray;
+  font-size: 16px
+}
+.container{
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+  justify-content:center;
+  align-items: center;
+  justify-content: space-between;
+  /*background-color: pink;*/
+  color:gray;
+}
+.container img{
+  height: 50px;
+
+}
+.right_side .img_icon{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px; 
+  margin-top:20px; 
+}
+.right_side_img{
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*here i used media query*/
+@media screen and (max-width: 500px){
+  .container{
+    display: block;
+  }
+  .right_side_img{
+  display: flex;
+  justify-content: flex-start;
+}
+  .heading button{
+    width: 40%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
